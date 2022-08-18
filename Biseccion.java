@@ -30,13 +30,15 @@ class Biseccion{
     }
 
     public static double f(double x){
-        return 2 * Math.sin((x+1));
+        return Math.PI * (Math.pow(x,2)) * ((9 - x) / 3) - 30;
     }
 
     /*
         Funciones utilizadas:
             TP1E8A: Math.pow(x,3) - 2*x - 1; 
             TP1E8B: 2 * Math.sin((x+1));
+            TP1E13: 80 * Math.pow(Math.E, -2*x) + 20 * Math.pow(Math.E, -0.5*x) - 7;
+            TP1E14: Math.PI * (Math.pow(x,2)) * ((9 - x) / 3) - 30;
     */
 }
 

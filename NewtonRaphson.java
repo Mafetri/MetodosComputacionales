@@ -22,9 +22,17 @@ public class NewtonRaphson {
     }
 
     public static double f(double x){
-        return Math.pow(x,3) - 2*x - 1;
+        return 2 * Math.sin((x+1));
     }
     public static double df(double x){
-        return 3*Math.pow(x,2) - 2; 
+        return 2 * Math.cos((x+1));
     }
+
+    /*
+        Funciones utilizadas:
+            TP1E8A: Math.pow(x,3) - 2*x - 1; 
+                    3*Math.pow(x,2) - 2; 
+            TP1E8B: 2 * Math.sin((x+1));
+                    2 * Math.cos((x+1));
+    */
 }
